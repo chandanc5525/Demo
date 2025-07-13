@@ -3,7 +3,7 @@ name: CML Run
 on:
   push:
   schedule:
-    - cron: '30 17 * * *'   # every day at 11:00 PM IST
+    - cron: '25 18 * * *'   # every day at 11:00 PM IST
   workflow_dispatch:
 
 jobs:
